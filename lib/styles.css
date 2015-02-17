@@ -1,0 +1,199 @@
+body {
+  color:#555;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size:16px;
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+h1, h2, h3, h4, a {
+  color:#515274;
+}
+h1 {
+  color:#515274;
+  font-size:5em;
+  text-align:center;
+  text-transform:lowercase;
+}
+h2 {
+  background:#fff;
+  border-top:1px dotted #515274;
+  margin:-81px auto 0;
+  padding-top:1em;
+  position:relative;
+  text-align:center;
+  width:45%;
+}
+h3 {
+  border-bottom:1px dotted #515274;
+  font-size:2em;
+  margin:0 0 1em;
+  text-transform:lowercase;
+  display:none;
+}
+h4 {
+  font-size:1.2em;
+  font-weight:normal;
+  margin:0 0 .5em;
+}
+a {
+  color:#191924;
+  text-decoration:none;
+}
+a:hover {
+  color:#666792;
+}
+
+header {
+  margin:0 auto 4em;
+}
+
+header, section, footer {
+  padding:1em 20%;
+}
+
+header .description {
+  font-size:.9em;
+  line-height:1.5em;
+  margin:0 auto;
+  /*width:80%;*/
+}
+
+section {
+  background:#fff;
+  border-top:2px dotted #515274;
+  padding-bottom:4em;
+}
+section:before {
+  font-size:3em;
+  font-weight:bold;
+  margin-top:-59px;
+  position:absolute;
+  color:#515274;
+}
+section.skills, section.education, footer {
+  background-color:#515274;
+  border-top-color:#fff;
+  color:#fff;
+}
+section.skills:before {
+  content:"skills";
+}
+section.experience:before {
+  color:#fff;
+  content:"experience";
+}
+section.education:before {
+  content:"education";
+}
+section.extracuricular:before {
+  color:#fff;
+  content:"speaking, awards, and honors";
+}
+
+footer {
+  height:200px;
+}
+footer p { display:inline; }
+footer nav {
+  display:inline;
+  float:right;
+}
+footer nav ul {
+  margin:0;
+}
+footer nav li {
+  display:inline-block;
+  margin:0 0 0 2em;
+}
+footer nav a {
+  color:#fff;
+}
+
+ul {
+  padding-left:0;
+}
+ul > li {
+  list-style:none;
+  margin:0 0 2em;
+}
+
+.skills > ul {
+  width:128%;
+  margin:2em 0 0 -12%;
+}
+.skills > ul > li {
+  display:inline-block;
+  height:200px;
+  text-align:center;
+  width:32%;
+}
+.skills span {
+  font-size:8em;
+}
+.skills h4, .education h4 {
+  color:#fff;
+}
+
+
+.company, .location {
+  display:inline-block;
+  margin:0;
+}
+.company:after {
+  content:",";
+}
+.length:before {
+  content:"("
+}
+.length:after {
+  content:")"
+}
+.when, .school {
+  margin:.5em 0 0;
+}
+
+
+.experience > ul > li, .extracuricular > ul > li {
+  border-bottom:1px dotted #515274;
+}
+.experience ul > li:last-child, .extracuricular > ul > li:last-child {
+  border-bottom:none;
+}
+
+.education > ul > li {
+  display:inline-block;
+  width:46%;
+}
+.education > ul > li:first-child {
+  margin-right:4em;
+}
+.education > ul > li:before {
+  content:"\1F393";
+  font-family:"SSGlyphish";
+  margin:.2em 0 0 -1.5em;
+  position:absolute;
+}
+
+
+.education > ul > li span.ss-icon {
+  display:inline-block;
+  width:20%;
+}
+
+/*.skills ul > li {
+  display:inline-flex;
+  height:200px;
+  width:24%;
+}
+
+.skills ul > li > ul > li {
+  display:inline;
+  height:auto;
+  width:100%;
+}
+
+.skills h4 {
+  text-align:center;
+}*/
